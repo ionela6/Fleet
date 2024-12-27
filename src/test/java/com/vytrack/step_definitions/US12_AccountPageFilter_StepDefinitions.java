@@ -13,10 +13,9 @@ import java.util.List;
 
 public class US12_AccountPageFilter_StepDefinitions {
     AccountsPage accountsPage = new AccountsPage();
-    @When("user is on the Accounts page")
-    public void user_is_on_the_accounts_page() {
-        accountsPage.navigateToModule("Customers","Accounts");
-
+    @When("user is on the {string} on {string} page")
+    public void userIsOnTheOnPage(String tab, String module) {
+        accountsPage.navigateToModule(tab, module);
     }
 
     @Then("user can see filter items below")
@@ -31,6 +30,7 @@ public class US12_AccountPageFilter_StepDefinitions {
         Assert.assertTrue(expectedItems.containsAll(actualItems));
 
     }
+
 
 
 }
