@@ -5,7 +5,7 @@ Feature: Users should be able to filter customer's
   Expected filter names: Account Name, Contact Name, Contact Email, Contact
   Phone, Owner, Business Unit, Created At, Updated At
     Given the user logged in as "<userType>"
-    When user is on the Accounts page
+    When user is on the "Customers" on "Accounts" page
     Then user can see filter items below
     |Account name|
     |Contact name|
