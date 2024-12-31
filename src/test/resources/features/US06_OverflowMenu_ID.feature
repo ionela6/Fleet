@@ -1,6 +1,7 @@
 Feature: Users should be able to see content of the OverflowMenu
+  Background: User is already in the log in page
 
-  @wip1
+  @us6
   Scenario Outline: Verify that users see “view, edit, delete” options when they hover the mouse
   over the overflow menu
     Given the user logged in as "<userType>"
@@ -14,5 +15,5 @@ Feature: Users should be able to see content of the OverflowMenu
     Examples:
       | userType      |
       | driver        |
-   #   | store manager |
-    #  | sales manager |
+      | store manager |
+     | sales manager |
