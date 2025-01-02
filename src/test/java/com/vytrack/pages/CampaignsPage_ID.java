@@ -7,9 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.List;
-
-public class MarketingPage_ID extends BasePage {
+public class CampaignsPage_ID extends BasePage {
 
 
     @FindBy(xpath = "//i[@class='fa-filter hide-text']")
