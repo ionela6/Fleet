@@ -1,19 +1,15 @@
 package com.vytrack.step_definitions;
 
-import com.vytrack.pages.MarketingPage_ID;
-import com.vytrack.utilities.BrowserUtils;
-import com.vytrack.utilities.Driver;
+import com.vytrack.pages.CampaignsPage_ID;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class US14_Filters_Marketing_StepDefs {
-    MarketingPage_ID marketingPage = new MarketingPage_ID();
+    CampaignsPage_ID marketingPage = new CampaignsPage_ID();
     List<WebElement> actualList;
 
     @Then("the user can see five filter options as checked by default")
