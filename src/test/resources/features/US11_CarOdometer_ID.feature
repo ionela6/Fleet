@@ -12,7 +12,7 @@ Feature: Users should be able to view car odometer info on the Vehicles Odometer
     Examples:
       |userType|
       |sales manager|
-    #  |store manager|
+      |store manager|
 
   Scenario: Verify that Drivers see the default page as 1.
     Given the user logged in as "driver"
