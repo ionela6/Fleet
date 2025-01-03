@@ -2,7 +2,7 @@
 Feature: Users should see error messages while entering an invalid integer number
   into the calendar Repeat Every input box.
 
-  Scenario Outline: Verify that users see error messages when enter invalid integers.
+  Scenario Outline: Verify that users see error messages when enter integer less than 1.
     Given the user logged in as "<userType>"
     When user is on the "Activities" on "Calendar Events" page
     And user clicks on the Create Calendar event button
@@ -15,7 +15,7 @@ Feature: Users should see error messages while entering an invalid integer numbe
       | store manager |
       | driver        |
 
-  Scenario Outline: Verify that users see error messages when enter invalid integers.
+  Scenario Outline: Verify that users see error messages when enter integer more than 99.
     Given the user logged in as "<userType>"
     When user is on the "Activities" on "Calendar Events" page
     And user clicks on the Create Calendar event button
