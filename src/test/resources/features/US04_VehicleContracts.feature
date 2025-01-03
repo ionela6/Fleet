@@ -4,6 +4,7 @@ Feature: User should access to the Vehicle Contracts Page.
     Given the user is on the login page
 
   @userstory4
+
   Scenario Outline: Verify that Store Manager and sales Manager can access Vehicle Contracts Page
     When the user logged in as "<userType>"
 Then user see the title name All - Vehicle Contract - Entities - System - Car - Entities - System

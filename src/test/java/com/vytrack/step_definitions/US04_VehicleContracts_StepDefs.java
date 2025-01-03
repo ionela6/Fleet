@@ -22,6 +22,7 @@ public class US04_VehicleContracts_StepDefs {
         BrowserUtils.verifyTitle(expectedTitle);
 
 
+
         System.out.println("Page title verified: " + expectedTitle);
     }
 
