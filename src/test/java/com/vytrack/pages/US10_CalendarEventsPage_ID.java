@@ -14,6 +14,10 @@ public class US10_CalendarEventsPage_ID extends BasePage {
     public WebElement iframe;
     @FindBy(id = "tinymce")
     public WebElement textBox;
-@FindBy(xpath = "//body[@id='tinymce']/p")
+    @FindBy(xpath = "//body[@id='tinymce']/p")
     public WebElement enteredText;
+    @FindBy(xpath = "//label[@data-role=\"control-section-switcher\"]/input[@data-related-field=\"interval\"]")
+    public WebElement repeatEveryInbox;
+    @FindBy(xpath = "//span[contains(@id, 'temp-validation-name-')]/span/span")
+    public WebElement errorMessage;
 }
