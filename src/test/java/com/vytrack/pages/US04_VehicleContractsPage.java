@@ -10,6 +10,7 @@ public class US04_VehicleContractsPage extends BasePage {
     public WebElement titleName;
 @FindBy(linkText="Vehicle Contracts")
     public WebElement vehicleLink;
+
 @FindBy(xpath = "//*[contains(text(), 'You do not have permission to perform this action.')]")
     public WebElement noPermissionText;
 
