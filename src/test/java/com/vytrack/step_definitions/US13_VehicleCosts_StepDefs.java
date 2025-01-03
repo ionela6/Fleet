@@ -39,7 +39,7 @@ public class US13_VehicleCosts_StepDefs {
     @And("users check the first checkbox to select All Vehicle Costs")
     public void usersCheckTheFirstCheckboxToSelectAllVehicleCosts() {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(),Duration.ofSeconds(10));
-// Wait for the loader to disappear
+
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.loader-mask.shown")));
       //  Thread.sleep(2000);
 
