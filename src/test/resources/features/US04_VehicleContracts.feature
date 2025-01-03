@@ -9,6 +9,7 @@ Feature: User should access to the Vehicle Contracts Page.
 Then user see the title name All - Vehicle Contract - Entities - System - Car - Entities - System
 
     Examples:
+
       | userType      |
       | sales manager |
      # | store manager |
