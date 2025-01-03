@@ -21,7 +21,7 @@ Feature: As a user, I want to view columns on the Vehicles Model page. (web-tabl
     Examples:
       | userType      |
       | store manager |
-     # | sales manager |
+      | sales manager |
   @US05
   Scenario Outline: Verify that drivers cannot access Vehicles Model page
     Given the user logged in as "<userType>"
